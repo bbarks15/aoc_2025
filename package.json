@@ -1,0 +1,21 @@
+{
+  "name": "advent_of_code",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "prepare": "effect-language-service patch"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.57.1",
+    "@types/bun": "latest",
+    "effect-solutions": "^0.4.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "effect": "^3.19.8"
+  }
+}
