@@ -1,5 +1,5 @@
 {
-  "name": "advent_of_code",
+  "name": "aoc",
   "module": "index.ts",
   "type": "module",
   "private": true,
@@ -16,6 +16,8 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@effect/platform": "^0.93.6",
+    "@effect/platform-bun": "^0.86.0",
     "effect": "^3.19.8"
   }
 }

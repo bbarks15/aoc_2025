@@ -26,6 +26,10 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
 
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+
     // Effect Language Service Plugin
     "plugins": [
       {
